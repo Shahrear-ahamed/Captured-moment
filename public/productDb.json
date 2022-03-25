@@ -25,7 +25,7 @@
     "price": "$6,849.00",
     "img": "https://m.media-amazon.com/images/I/61jtpnWM77L._AC_SX425_.jpg",
     "category": "Mirrorless",
-    "name": "Hasselblad X1D II 50C 50MP Medium Format Mirrorless Camera Body"
+    "name": "Hasselblad X1D II 50C 50MP Mirrorless Camera"
   },
   {
     "id": "623dd970974f52eb2a456f07",
@@ -60,7 +60,7 @@
     "price": "$1,099.00",
     "img": "https://m.media-amazon.com/images/I/61sSn+xWZ1L._AC_SX425_.jpg",
     "category": "Mirrorless",
-    "name": "Canon EOS M6 Mark II Mirrorless Camera, (Black)+EF-M 15-45mm F/3.5-6.3 IS STM + EVF Kit"
+    "name": "Canon EOS M6 Mark II Mirrorless Camera"
   },
   {
     "id": "623dd97074568bbd370ed91b",
@@ -81,6 +81,6 @@
     "price": "$1,998.00",
     "img": "https://m.media-amazon.com/images/I/71B33yx+J2L._AC_SX679_.jpg",
     "category": "Mirrorless",
-    "name": "Canon EOS R + RF24-105mm F4-7.1 IS STM Lens Kit"
+    "name": "Canon EOS R Plus"
   }
 ]

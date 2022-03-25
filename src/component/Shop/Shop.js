@@ -12,13 +12,13 @@ const Shop = () => {
       .then((res) => res.json())
       .then((data) => setCameras(data));
   }, []);
-  
+
   return (
-    <div className="shop-container">
-      <div className="single-product">
-          {
-              cameras.map(camera => <Product key={camera.id} camera={camera}/>)
-          }
+    <div className="shop-container grid-style">
+      <div className="single-product grid-style">
+        {cameras.map((camera) => (
+          <Product key={camera.id} camera={camera} />
+        ))}
       </div>
       <Cart />
     </div>
