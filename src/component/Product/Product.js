@@ -7,18 +7,18 @@ const Products = ({ camera }) => {
   console.log(camera);
   return (
     <div className="product-cart">
-      <img src={camera.img} alt="" />
-      <div>
+      <div className="details-section">
+        <img src={camera.img} alt="" />
         <h3>{camera.name}</h3>
-        <p>Category: {camera.category}</p>
         <div className="btn-container d-flex">
-          <button className="cart-btn d-flex">
-            <p>Add to Cart</p>
-            <FontAwesomeIcon icon={faShoppingCart} />
-          </button>
+          <p>Category: {camera.category}</p>
           <h4>{camera.price}</h4>
         </div>
       </div>
+      <button className="cart-btn d-flex">
+        <p>Add to Cart</p>
+        <FontAwesomeIcon icon={faShoppingCart} />
+      </button>
     </div>
   );
 };

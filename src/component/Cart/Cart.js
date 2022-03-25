@@ -1,9 +1,10 @@
 import React from 'react';
+import "./Cart.css"
 
 const Cart = () => {
     return (
-        <div>
-            <h1>HI</h1>
+        <div className="cart-container">
+            <h2 className='cart-title'>Selected Items</h2>
         </div>
     );
 };

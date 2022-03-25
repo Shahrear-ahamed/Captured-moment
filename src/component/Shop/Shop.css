@@ -5,7 +5,7 @@
 .shop-container{
     max-width: 1250px;
     margin: 30px auto 0;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 6fr 2fr;
 }
 .single-product{
     grid-template-columns: repeat(3, 1fr);
