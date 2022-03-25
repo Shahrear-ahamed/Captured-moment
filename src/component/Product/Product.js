@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Products = (props) => {
+const Products = ({camera}) => {
+    console.log(camera);
     return (
         <div>
-        <h2>shahrear</h2>
+        <h4>shahrear</h4>
         </div>
     );
 };

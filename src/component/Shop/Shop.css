@@ -1,0 +1,11 @@
+.shop-container{
+    display: grid;
+    max-width: 1250px;
+    margin: 0 auto;
+    gap: 15px;
+    grid-template-columns: 4fr 1fr;
+}
+.single-product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

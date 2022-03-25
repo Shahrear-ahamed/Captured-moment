@@ -1,12 +1,28 @@
-import React from 'react';
+import { useEffect, useState } from "react";
+import React from "react";
+import Product from "../Product/Product";
+import Cart from "../Cart/Cart";
+import "./Shop.css";
 
-const Shop = (props) => {
-    console.log(props);
-    return (
-        <div>
-            <h2>Shahrear</h2>
-        </div>
-    );
+const Shop = () => {
+  const [cameras, setCameras] = useState([]);
+
+  useEffect(() => {
+    fetch("productDb.json")
+      .then((res) => res.json())
+      .then((data) => setCameras(data));
+  }, []);
+  
+  return (
+    <div className="shop-container">
+      <div className="single-product">
+          {
+              cameras.map(camera => <Product key={camera.id} camera={camera}/>)
+          }
+      </div>
+      <Cart />
+    </div>
+  );
 };
 
 export default Shop;
