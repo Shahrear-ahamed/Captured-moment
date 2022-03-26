@@ -3,14 +3,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import "./CartItem.css"
 
-const CartItem = ({ item }) => {
+const CartItem = ({ item, deleteSingleProduct }) => {
+  const {img, name, id} = item;
   return (
     <div className="items-details">
       <div className="items-info">
-        <img src={item.img} alt="" />
-        <h4>{item.name}</h4>
+        <img src={img} alt="" />
+        <h4>{name}</h4>
       </div>
-      <button className="delete-btn">
+      <button className="delete-btn" onClick={() => deleteSingleProduct(id)}>
         <FontAwesomeIcon icon={faTrash} />
       </button>
     </div>

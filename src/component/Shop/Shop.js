@@ -7,6 +7,7 @@ import "./Shop.css";
 const Shop = () => {
   const [cameras, setCameras] = useState([]);
   const [cart, setCart] = useState([]);
+  console.log(cart);
 
   useEffect(() => {
     fetch("productDb.json")
@@ -29,16 +30,21 @@ const Shop = () => {
       }
     }
   };
-  // random product 
-  const randomProduct = items => {
-      const randomData =
-        items[Math.floor(Math.random() * items.length)];
-        const randomItems = [randomData];
-        setCart(randomItems);
-  }
+  // random product
+  const randomProduct = (items) => {
+    const randomData = items[Math.floor(Math.random() * items.length)];
+    const randomItems = [randomData];
+    setCart(randomItems);
+  };
 
   // clear add items
   const clearItems = () => setCart([]);
+
+  // delete deleteSingleProduct product by clicking button
+  const deleteSingleProduct = id => {
+    const deleteItems = cart.filter(item => item.id !== id);
+    setCart(deleteItems);
+  };
 
   return (
     <div className="shop-container grid-style">
@@ -51,6 +57,7 @@ const Shop = () => {
         selectItems={cart}
         clearItems={clearItems}
         randomProduct={randomProduct}
+        deleteSingleProduct={deleteSingleProduct}
       />
     </div>
   );
