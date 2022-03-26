@@ -40,7 +40,10 @@ const Shop = () => {
           <Product key={camera.id} camera={camera} addToCart={addToCart} />
         ))}
       </div>
-      <Cart selectItems={cart} clearItems={clearItems} />
+      <Cart
+        selectItems={cart}
+        clearItems={clearItems}
+      />
     </div>
   );
 };

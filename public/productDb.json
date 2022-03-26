@@ -1,86 +1,86 @@
 [
   {
-    "id": "623dd970a46f34eefaa96eab",
+    "id": "1",
     "price": "$798.00",
     "img": "https://cdn.pixabay.com/photo/2014/02/26/10/55/camera-275007_960_720.jpg",
     "category": "Mirrorless",
     "name": "Sony Alpha 7"
   },
   {
-    "id": "623dd970cb826b0e4c190555",
+    "id": "2",
     "price": "$338.00",
     "img": "https://m.media-amazon.com/images/I/41a0leiV5DL._AC_SX425_.jpg",
     "category": "Dslr",
     "name": "Canon PowerShot SX420 IS"
   },
   {
-    "id": "623dd970383ce99352af192a",
+    "id": "3",
     "price": "$1,799.00",
     "img": "https://m.media-amazon.com/images/I/616BcN5ep+L._AC_SX425_.jpg",
     "category": "Dslr",
     "name": "Nikon D500 DX-Format Digital SLR"
   },
   {
-    "id": "623dd970829a45a9f357c199",
+    "id": "4",
     "price": "$6,849.00",
     "img": "https://m.media-amazon.com/images/I/61jtpnWM77L._AC_SX425_.jpg",
     "category": "Mirrorless",
     "name": "Hasselblad X1D II 50C 50MP Mirrorless Camera"
   },
   {
-    "id": "623dd970974f52eb2a456f07",
+    "id": "5",
     "price": "$2,196.95",
     "img": "https://m.media-amazon.com/images/I/91UQAYF2zBL._AC_SX569_.jpg",
     "category": "Mirrorless",
     "name": "Nikon Z6 FX-Format Mirrorless Camera"
   },
   {
-    "id": "623dd9702abc749f0a3cf44a",
+    "id": "6",
     "price": "$599.64",
     "img": "https://m.media-amazon.com/images/I/71bkHapvTRL._AC_SX679_.jpg",
     "category": "Dslr",
     "name": "Sony DSCH300/B Digital Camera"
   },
   {
-    "id": "623dd97084eddd0d838e37f6",
+    "id": "7",
     "price": "$1,996.00",
     "img": "https://images-na.ssl-images-amazon.com/images/I/81nCj2ULSyL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     "category": "Mirrorless",
     "name": "PENTAX K-3 Mark III"
   },
   {
-    "id": "623dd97032e7bd48bca9590b",
+    "id": "8",
     "price": "$2,914.18",
     "img": "https://m.media-amazon.com/images/I/81xVbbwlqlL._AC_SX425_.jpg",
     "category": "Dslr",
     "name": "PANASONIC LUMIX FZ300"
   },
   {
-    "id": "623dd970b36b811edd2b6a00",
+    "id": "9",
     "price": "$1,099.00",
     "img": "https://m.media-amazon.com/images/I/61sSn+xWZ1L._AC_SX425_.jpg",
     "category": "Mirrorless",
     "name": "Canon EOS M6 Mark II Mirrorless Camera"
   },
   {
-    "id": "623dd97074568bbd370ed91b",
+    "id": "10",
     "price": "$2,198.00",
     "img": "https://m.media-amazon.com/images/I/91rQ3XfEYzL._AC_SX425_.jpg",
     "category": "Mirrorless",
     "name": "Sony a7 III"
   },
   {
-    "id": "623dd970122e017334a9ab56",
+    "id": "11",
     "price": "$999.95",
     "img": "https://m.media-amazon.com/images/I/91jRUdj5AJL._AC_SX425_.jpg",
     "category": "Mirrorless",
     "name": "Fujifilm X-E3"
   },
   {
-    "id": "623dd970e0e1f5d96b7d2418",
+    "id": "12",
     "price": "$1,998.00",
     "img": "https://m.media-amazon.com/images/I/71B33yx+J2L._AC_SX679_.jpg",
     "category": "Mirrorless",
-    "name": "Canon EOS R Plus"
+    "name": "Canon EOS R"
   }
 ]

@@ -2,17 +2,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShuffle, faTrash } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import "./Cart.css";
+import CartItem from "../CartItem/CartItem";
 
 const Cart = ({ selectItems, clearItems }) => {
-  return (
+
+    return (
     <div className="cart-container">
-      <h2 className="cart-title">Selected Items</h2>
+      <h2 className="cart-title">Selected Items {selectItems.length}</h2>
       {selectItems.map((item) => (
-        <div key={item.id} className="items-details">
-          <img src={item.img} alt="" />
-          <h5>{item.name}</h5>
-          <FontAwesomeIcon icon={faTrash} />
-        </div>
+        <CartItem key={item.id} item={item} />
       ))}
 
       <div className="cart-btn-container">
