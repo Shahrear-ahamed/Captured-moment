@@ -3,10 +3,28 @@
     gap: 15px;
 }
 .shop-container{
+    width: 85%;
     max-width: 1250px;
     margin: 30px auto 0;
     grid-template-columns: 6fr 2fr;
 }
 .single-product{
+    margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 992px) {
+    .shop-container{
+        width: auto;
+        grid-template-columns: 1fr;
+    }
+    .single-product{
+        order: 2;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 576px) {
+    .single-product{
+        grid-template-columns: 1fr;
+    }
 }
