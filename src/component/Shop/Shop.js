@@ -29,6 +29,13 @@ const Shop = () => {
       }
     }
   };
+  // random product 
+  const randomProduct = items => {
+      const randomData =
+        items[Math.floor(Math.random() * items.length)];
+        const randomItems = [randomData];
+        setCart(randomItems);
+  }
 
   // clear add items
   const clearItems = () => setCart([]);
@@ -43,6 +50,7 @@ const Shop = () => {
       <Cart
         selectItems={cart}
         clearItems={clearItems}
+        randomProduct={randomProduct}
       />
     </div>
   );
