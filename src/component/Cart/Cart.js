@@ -8,7 +8,7 @@ const Cart = ({ selectItems, clearItems , randomProduct}) => {
 
     return (
       <div className="cart-container">
-        <h2 className="cart-title">Selected Items {selectItems.length}</h2>
+        <h2 className="cart-title">Selected Items</h2>
         {selectItems.map((item) => (
           <CartItem key={item.id} item={item} />
         ))}

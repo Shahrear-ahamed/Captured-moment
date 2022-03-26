@@ -15,7 +15,8 @@
   margin-bottom: 60px;
 }
 .details-section h3 {
-  height: 60px;
+  min-height: 60px;
+  height: 95px;
 }
 .d-flex {
   display: flex;
